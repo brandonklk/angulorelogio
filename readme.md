@@ -1,4 +1,4 @@
-# Angulo de relógico
+# Angulo de relógio
 
 Este projeto foi desenvolvido a pedido de uma empresa para servir de teste de admissão. O código foi desenvolvido em Java usando Maven como estrutura de projeto e ferramenta para garantir padrão e compilação e os testes foram escritos usando JUnit 4. 
 
