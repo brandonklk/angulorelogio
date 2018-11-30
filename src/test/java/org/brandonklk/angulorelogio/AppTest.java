@@ -74,5 +74,21 @@ public class AppTest {
 		assertEquals(ANGULO_RETORNADO, ANGULO_ESPERADO);
 		
 	}
+        @Test
+        void testHourShouldBe72Degrees() {
+		GregorianCalendar horario = new GregorianCalendar();
+		
+		horario.set(Calendar.HOUR  , 0);
+		horario.set(Calendar.MINUTE,24);
+		
+		// Valor que a minha lógica retornou
+		final long  ANGULO_RETORNADO = Formula.retornaAnguloRelogio(horario);
+		// Valor que deve ser retornado
+		final long  ANGULO_ESPERADO  = 24;
+		
+		// Se os dois valores forem iguais o programa esta funcionando
+		assertEquals(ANGULO_RETORNADO, ANGULO_ESPERADO);
+		
+	}
 
 }
