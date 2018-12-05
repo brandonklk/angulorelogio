@@ -40,14 +40,14 @@ public final class Formula {
 		 * 
 		 */
 		if (minuto >= 0 && minuto <= 15) {
-			anguloMinuto = minuto * 3;
+			anguloMinuto = minuto * 3; // cada minuto equivale a 6 graus.
 		} else if (minuto <= 45) {
 			anguloMinuto = 45 + (minuto - 15) * 9;
 		} else if (minuto < 60) {
 			anguloMinuto = 315 + (minuto - 45) * 3;
 		}
 
-		long anguloRelogio = Math.abs(minuto - hora);
+		long anguloRelogio = Math.abs(anguloMinuto - anguloHora);
 
 		anguloRelogio = Math.min(anguloRelogio, 360 - anguloRelogio);
 		return anguloRelogio;

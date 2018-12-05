@@ -7,8 +7,8 @@ import java.util.GregorianCalendar;
 import org.brandonklk.angulorelogio.util.Formula;
 
 /**
- * Demonstra o funcionamento do programa do calculo do ângulo com base na
- * hora atual do sistema.
+ * Demonstra o funcionamento do programa do calculo do ângulo com base na hora
+ * atual do sistema.
  * 
  * @author Brandon Marcos Kluck
  *
@@ -17,10 +17,11 @@ public class App {
 
 	/**
 	 * Método principal usado para demonstrar a execução com a hora atual
+	 * 
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		java.util.Date agora = new java.util.Date();
+		java.util.Date nova = new java.util.Date();
 		GregorianCalendar horario = new GregorianCalendar();
 
 		String data = "dd/MM/yyyy";
@@ -28,10 +29,10 @@ public class App {
 		String dataAtual, horaAtual;
 
 		SimpleDateFormat formata = new SimpleDateFormat(data);
-		dataAtual = formata.format(agora);
+		dataAtual = formata.format(nova);
 
 		formata = new SimpleDateFormat(hora);
-		horaAtual = formata.format(agora);
+		horaAtual = formata.format(nova);
 
 		System.out.print(dataAtual + " " + " Horas: ");
 		System.out.print(horaAtual + "");
