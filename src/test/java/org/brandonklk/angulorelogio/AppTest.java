@@ -1,12 +1,14 @@
 package org.brandonklk.angulorelogio;
 
-import junit.framework.Assert;
-import org.brandonklk.angulorelogio.util.Formula;
-import org.junit.jupiter.api.Test;
 
+import org.brandonklk.angulorelogio.util.Formula;
+import org.junit.jupiter.api.*;
 
 import java.util.Calendar;
 import java.util.GregorianCalendar;
+
+
+
 
 /**
  * Realiza os testes propostos na tarefa definida pela Neomind
@@ -32,7 +34,7 @@ public class AppTest {
 		final long ANGULO_ESPERADO = 0;
 
 		// Se os dois valores forem iguais o programa esta funcionando
-		Assert.assertEquals(ANGULO_RETORNADO, ANGULO_ESPERADO);
+		Assertions.assertEquals(ANGULO_RETORNADO, ANGULO_ESPERADO);
 
 	}
 
@@ -52,7 +54,7 @@ public class AppTest {
 		final long ANGULO_ESPERADO = 45;
 
 		// Se os dois valores forem iguais o programa esta funcionando
-		Assert.assertEquals(ANGULO_RETORNADO, ANGULO_ESPERADO);
+		Assertions.assertEquals(ANGULO_RETORNADO, ANGULO_ESPERADO);
 
 	}
 
@@ -72,7 +74,7 @@ public class AppTest {
 		final long ANGULO_ESPERADO = 180;
 
 		// Se os dois valores forem iguais o programa esta funcionando
-		Assert.assertEquals(ANGULO_RETORNADO, ANGULO_ESPERADO);
+		Assertions.assertEquals(ANGULO_RETORNADO, ANGULO_ESPERADO);
 
 	}
 
@@ -93,7 +95,7 @@ public class AppTest {
 		final long ANGULO_ESPERADO = 126;
 
 		// Se os dois valores forem iguais o programa esta funcionando
-		Assert.assertEquals(ANGULO_RETORNADO, ANGULO_ESPERADO);
+		Assertions.assertEquals(ANGULO_RETORNADO, ANGULO_ESPERADO);
 
 	}
 
