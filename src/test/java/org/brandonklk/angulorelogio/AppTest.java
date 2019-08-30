@@ -2,7 +2,6 @@ package org.brandonklk.angulorelogio;
 
 import junit.framework.Assert;
 import org.brandonklk.angulorelogio.util.Formula;
-import org.junit.jupiter.api.Test;
 
 
 import java.util.Calendar;
@@ -19,7 +18,7 @@ public class AppTest {
 	/**
 	 * Testa se a hora definida e passada é meia noite, ou seja, 00:00
 	 */
-	@Test
+	
 	void testHourShouldBeZeroDegree() {
 		GregorianCalendar horario = new GregorianCalendar();
 
@@ -39,7 +38,7 @@ public class AppTest {
 	/**
 	 * Testa se a hora definida e passada é meia noite e quinze, ou seja, 00:15
 	 */
-	@Test
+	
 	void testHourShouldBe45Degrees() {
 		GregorianCalendar horario = new GregorianCalendar();
 
@@ -59,7 +58,7 @@ public class AppTest {
 	/**
 	 * Testa se a hora definida e passada é meia noite e meia, ou seja, 00:30
 	 */
-	@Test
+	
 	void testHourShouldBe180Degrees() {
 		GregorianCalendar horario = new GregorianCalendar();
 
@@ -80,7 +79,7 @@ public class AppTest {
 	 * Testa se a hora definida e passada é meia noite e vinte e quatro, ou seja,
 	 * 00:24
 	 */
-	@Test
+	
 	void testHourShouldBe72Degrees() {
 		GregorianCalendar horario = new GregorianCalendar();
 
