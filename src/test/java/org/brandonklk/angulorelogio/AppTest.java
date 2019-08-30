@@ -1,15 +1,11 @@
 package org.brandonklk.angulorelogio;
 
 
-
 import org.brandonklk.angulorelogio.util.Formula;
 import org.junit.jupiter.api.*;
 
 import java.util.Calendar;
 import java.util.GregorianCalendar;
-
-
-
 
 /**
  * Realiza os testes propostos na tarefa definida pela Neomind
