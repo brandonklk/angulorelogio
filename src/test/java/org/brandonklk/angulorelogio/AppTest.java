@@ -1,6 +1,7 @@
 package org.brandonklk.angulorelogio;
 
 
+
 import org.brandonklk.angulorelogio.util.Formula;
 import org.junit.jupiter.api.*;
 
@@ -35,6 +36,7 @@ public class AppTest {
 
 		// Se os dois valores forem iguais o programa esta funcionando
 		Assertions.assertEquals(ANGULO_RETORNADO, ANGULO_ESPERADO);
+
 
 	}
 
